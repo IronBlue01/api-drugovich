@@ -45,6 +45,10 @@ PORT: 3388
 USERNAME: root
 PASSWORD: root
 
+# Executar os testes automatizados
+php artisan test
+
+
 ### Cabeçalho para executar requisições
 Este cabeçalho garante que a resposta seja devolvida em JSON. Não informá-lo na requisição pode causar comportamentos
 inesperados na API.
