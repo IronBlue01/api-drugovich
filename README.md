@@ -41,8 +41,11 @@ Dentro da documentação do projeto é possivel importar as collections com os e
 É posssível acessar o banco através de ferramentas como workbench ou dbeaver os dados para conexão estão abaixo:
 
 HOST: localhost
+
 PORT: 3388
+
 USERNAME: root
+
 PASSWORD: root
 
 # Executar os testes automatizados
