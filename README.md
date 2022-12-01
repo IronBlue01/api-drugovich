@@ -37,6 +37,14 @@ php artisan scribe:generate
 # Gerando as collections para utilizar no postman
 Dentro da documentação do projeto é possivel importar as collections com os endpoints para uso em ferramentas como postman clicando no link que se encontra no menu lateral esquerdo na parte inferior [View Postman Collection]
 
+# Acessar o banco mysql
+É posssível acessar o banco através de ferramentas como workbench ou dbeaver os dados para conexão estão abaixo:
+
+HOST: localhost
+PORT: 3388
+USERNAME: root
+PASSWORD: root
+
 ### Cabeçalho para executar requisições
 Este cabeçalho garante que a resposta seja devolvida em JSON. Não informá-lo na requisição pode causar comportamentos
 inesperados na API.
